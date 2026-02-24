@@ -1,0 +1,47 @@
+<form action="#" method="post">
+  <h2>Catering Inquiry</h2>
+  <p>Planning an event? Let us bring the aloha to you!</p>
+
+  <fieldset>
+    <legend>Contact Information</legend>
+
+    <p>
+      <label for="name">Contact Name:</label>
+      <input type="text" id="name" name="name" required>
+    </p>
+
+    <p>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </p>
+  </fieldset>
+
+  <p>
+    <label for="event-type">Event Type:</label>
+    <select id="event-type" name="event-type">
+      <option value="corporate">Corporate Meeting</option>
+      <option value="wedding">Wedding</option>
+      <option value="birthday">Birthday Party</option>
+      <option value="other">Other</option>
+    </select>
+  </p>
+
+  <p>
+    <label for="event-date">Event Date:</label>
+    <input type="date" id="event-date" name="event-date" required>
+  </p>
+
+  <p>
+    <label for="details">Additional Details:</label>
+    <textarea id="details" name="details" rows="4" cols="40"></textarea>
+  </p>
+
+  <p>
+    <input type="checkbox" id="newsletter" name="newsletter">
+    <label for="newsletter">Sign me up for the Island Brews newsletter</label>
+  </p>
+
+  <p>We'll respond within 2 business days.</p>
+
+  <button type="submit">Submit Inquiry</button>
+</form>
