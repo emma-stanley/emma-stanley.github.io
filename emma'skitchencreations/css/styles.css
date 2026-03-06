@@ -91,38 +91,57 @@ footer {
 /* ===================
    Navigation
    =================== */
+/* ===================
+   Navigation (Flexbox)
+   =================== */
 
-nav ul {
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.nav-links {
+    display: flex;
     list-style: none;
+    gap: 20px;
     padding: 0;
-    margin: 10px 0 0 0;
+    margin: 0;
 }
 
-nav li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav a {
+.nav-links a {
     text-decoration: none;
-    color: #4A5759;
     font-weight: 500;
+    color: #4A5759;
 }
 
-nav a:hover {
+.nav-links a:hover {
     color: #EDAFB8;
-    text-decoration: underline;
 }
 
 /* ===================
    Components
    =================== */
-   
-   img {
-    max-width: 100%;
-    height: auto;
+
+.recipe-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1 1 250px;
+    background-color: #F7E1D7;
+    border: 1px solid #B0C4B1;
     border-radius: 8px;
-    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
 }
 
 /* Section spacing */
