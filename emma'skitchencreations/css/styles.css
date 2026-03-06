@@ -119,6 +119,8 @@ footer {
     gap: 20px;
     padding: 0;
     margin: 0;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .nav-links a {
