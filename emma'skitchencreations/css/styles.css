@@ -117,6 +117,13 @@ nav a:hover {
 /* ===================
    Components
    =================== */
+   
+   img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
 
 /* Section spacing */
 
